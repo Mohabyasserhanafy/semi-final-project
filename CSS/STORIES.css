@@ -1,0 +1,1617 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "DM Sans", serif;
+}
+
+/* Nav Bar */
+
+nav{
+    width: 100%;
+    height: 72px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 165px;
+}
+
+/* Logo */
+
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav a .logo{
+    display: flex;
+    gap: 8px;
+    align-self: center;
+}
+
+nav a .logo h1{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+nav a .logo svg{
+    position: relative;
+    top: 7px;
+}
+
+/* Links */
+
+nav .links{
+    width: 270px;
+    height: 16px;
+}
+
+nav .links ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .links ul li{
+    list-style: none;
+}
+
+nav .links ul li a{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+nav .links ul li a:hover{
+    opacity: 30%;
+}
+
+/* Button */
+
+nav .btn{
+    width: 158px;
+    height: 40px;
+    background-color: #000;
+    padding: 12px 24px;
+    color: #fff;
+    display: flex;
+    align-self: center;
+}
+
+nav .btn:hover{
+    background: #DFDFDF;
+    color: #000;
+}
+
+nav .btn p{
+    width: 110px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Bar */
+
+nav .bar{
+    display: none;
+}
+
+/* Main */
+
+main{
+    width: 100%;
+    height: 650px;
+    background-image: url("../IMAGES/main.png");
+    background-position: center;
+    background-size: cover;
+    padding: 122px 112px;
+}
+
+main .content{
+    width: 387px;
+    height: 406px;
+    position: relative;
+}
+
+main .content .one{
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main .content h2{
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+
+main .content .date{
+    color: #fff;
+    width: 350px;
+    height: 17px;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: 0;
+    top: 220px;
+}
+
+main .content .date .one{
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 75%;
+}
+
+main .content .date .two{
+    font-weight: 400;
+    font-size: 13px;
+    position: absolute;
+    left: 140px;
+    top : 0;
+}
+
+main .content .two{
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    opacity: 60%;
+    position: absolute;
+    top: 250px;
+}
+
+main .content .read{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+
+main .content .read h3{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+main .content .read h3:hover{
+    text-decoration: underline;
+}
+
+/* stories */
+
+.stories {
+    width: 100%;
+    height: 500px;
+}
+
+.stories .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*  */
+
+.stories .container .card-one{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-1.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-one:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-one .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-one .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-one .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-one .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-one .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-one .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-one .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-two{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-2.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-two:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-two .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-two .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-two .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-two .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-two .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-two .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-two .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-three{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-3.png");
+    background-size: cover;
+    background-position-x: -550px;
+    background-position-y: -495px;
+    transition: all 1s;
+}
+
+.stories .container .card-three:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-three .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-three .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-three .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-three .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-three .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-three .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-three .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-four{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-4.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-four:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-four .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-four .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-four .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-four .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-four .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-four .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-four .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/* */
+
+.stories .container .card-five{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-5.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-five:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-five .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-five .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-five .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-five .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-five .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-five .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-five .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-six{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-6.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-six:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-six .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-six .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-six .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-six .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-six .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-six .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-six .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-seven{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-7.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-seven:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-seven .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-seven .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-seven .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-seven .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-seven .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-seven .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-seven .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-eight{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-8.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-eight:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-eight .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-eight .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-eight .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-eight .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-eight .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-eight .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-eight .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-nine{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-9.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-nine:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-nine .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-nine .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-nine .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-nine .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-nine .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-nine .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-nine .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-ten{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-10.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-ten:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-ten .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-ten .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-ten .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-ten .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-ten .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-ten .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-ten .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-eleven{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-11.png");
+    background-size: cover;
+    background-position-x: -400px;
+    background-position-y: -495px;
+    transition: all 1s;
+}
+
+.stories .container .card-eleven:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-eleven .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-eleven .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-eleven .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-eleven .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-eleven .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-eleven .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-eleven .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-twelve{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-12.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-twelve:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-twelve .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-twelve .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-twelve .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-twelve .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-twelve .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-twelve .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-twelve .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/* */
+
+.stories .container .card-thirteen{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-13.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-thirteen:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-thirteen .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-thirteen .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-thirteen .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-thirteen .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-thirteen .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-thirteen .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-thirteen .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-fourteen{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-14.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-fourteen:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-fourteen .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-fourteen .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-fourteen .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-fourteen .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-fourteen .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-fourteen .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-fourteen .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-fifteen{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-15.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-fifteen:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-fifteen .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-fifteen .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-fifteen .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-fifteen .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-fifteen .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-fifteen .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-fifteen .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/*  */
+
+.stories .container .card-sixteen{
+    width: calc(100% / 4);
+    height: 500px;
+    background-image: url("../IMAGES/story-16.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+
+.stories .container .card-sixteen:hover{
+    transform: translateY(-20px);
+    border-bottom: solid 6px #BC7198;
+}
+
+.stories .container .card-sixteen .content{
+    width: 100%;
+    height: 500px;
+    padding: 0 40px;
+    padding-top: 361px;
+}
+
+.stories .container .card-sixteen .content .date p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+.stories .container .card-sixteen .content .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stories .container .card-sixteen .content .text p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.stories .container .card-sixteen .content .line{
+    width: 280px;
+    height: 2px;
+    opacity: 25%;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.stories .container .card-sixteen .content .read{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .container .card-sixteen .content .read h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 250px;
+    padding: 64px 168px;
+    background-color: #000;
+    position: absolute;
+    top: 2715px;
+}
+
+footer .container{
+    width: (100% - 336px);
+    height: 122px;
+    position: relative;
+}
+
+/* logo footer */
+
+footer .container .logo-footer{
+    margin-bottom: 85p;
+}
+
+footer .container .logo-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .container .logo-footer a .logo{
+    display: flex;
+    gap: 8px;
+    align-self: center;
+    width: fit-content;
+}
+
+footer .container .logo-footer a .logo h1{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+footer .container .logo-footer a .logo svg{
+    position: relative;
+    top: 7px;
+}
+
+/* social logos */
+
+footer .container .social-logos{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+footer .container .social-logos a{
+    text-decoration: none;
+}
+
+footer .container .social-logos-hover{
+    position: absolute;
+    bottom: 0;
+}
+
+footer .container .social-logos-hover a{
+    text-decoration: none;
+}
+
+footer .container .social-logos .facebook:hover{
+    opacity: 0;
+}
+
+footer .container .social-logos .youtube:hover{
+    opacity: 0;
+}
+
+footer .container .social-logos .twitter:hover{
+    opacity: 0;
+}
+
+footer .container .social-logos .pinterest:hover{
+    opacity: 0;
+}
+
+footer .container .social-logos .instagram:hover{
+    opacity: 0;
+}
+
+/* footer links */
+
+footer .container .links{
+    position: absolute;
+    left: 280px;
+    top: 0;
+}
+
+footer .container .links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .container .links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.active{
+    opacity: 30%;
+}
+
+footer .container .links ul li a:hover{
+    opacity: 30%;
+}
+
+/* invite link */
+
+footer .container .invite{
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+footer .container .invite:hover{
+    text-decoration: underline;
+}
+
+/* invite info */
+
+footer .container .info{
+    color: #fff;
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* Responsive */
+
+@media (max-width: 991px) {
+
+    /* Nav Bar */
+
+    nav{
+        padding: 28px 40px;
+    }
+
+    /* stories */
+
+    .stories .container .card-one{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-two{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-three{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-four{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-five{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-six{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-seven{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-eight{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-nine{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-ten{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-eleven{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-twelve{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-thirteen{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-fourteen{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-fifteen{
+        width: calc(100% / 2);
+    }
+
+    .stories .container .card-sixteen{
+        width: calc(100% / 2);
+    }
+
+     /* Footer */
+
+    footer{
+        transform: translateY(2000px);
+        padding: 50px 40px;
+    }
+
+    footer .container .social-logos{
+        bottom: -30px;
+    }
+
+    footer .container .social-logos-hover{
+        bottom: -30px;
+    }
+
+    footer .container .info{
+        bottom: -30px;
+    }
+
+    footer .container .links ul{
+        flex-direction: row;
+        position: absolute;
+        left: -279px;
+        top: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* nav bar */
+
+    nav{
+        padding: 28px 24px;
+    }
+
+    nav .links{
+        display: none;
+    }
+
+    nav .btn{
+        display: none;
+    }
+    nav .bar{
+        display: flex;
+        padding: 9px;
+    }
+
+    /* Main */
+
+    main{
+        background-position-x: -100px;
+        height: 317px;
+    }
+
+    main .content{
+        background-color: #000;
+        position: absolute;
+        top: 389px;
+        left: 0;
+        width: 100%;
+        height: 520px;
+        padding: 48px 29px;
+    }
+
+    main .content .one{
+        padding: 48px 29px;
+    }
+
+    main .content h2{
+        width: fit-content;
+        padding: 50px 29px;
+    }
+
+    main .content .date .one{
+        padding: 60px 29px;
+    }
+
+    main .content .date .two{
+        padding: 60px 29px;
+    }
+
+    main .content .two{
+        padding: 70px 0;
+    }
+
+    main .content .read{
+        position: absolute;
+        bottom: 49px;
+    }
+
+    /* stories */
+
+    .stories .container{
+        position: absolute;
+        top: 909px;
+    }
+
+    .stories .container .card-one{
+        width: 100%;
+    }
+
+    .stories .container .card-two{
+        width: 100%;
+    }
+
+    .stories .container .card-three{
+        width: 100%;
+    }
+
+    .stories .container .card-four{
+        width: 100%;
+    }
+
+    .stories .container .card-five{
+        width: 100%;
+    }
+
+    .stories .container .card-six{
+        width: 100%;
+    }
+
+    .stories .container .card-seven{
+        width: 100%;
+    }
+
+    .stories .container .card-eight{
+        width: 100%;
+    }
+
+    .stories .container .card-nine{
+        width: 100%;
+    }
+
+    .stories .container .card-ten{
+        width: 100%;
+    }
+
+    .stories .container .card-eleven{
+        width: 100%;
+        background-position-x: 0;
+        background-position-y: 0;
+    }
+
+    .stories .container .card-twelve{
+        width: 100%;
+    }
+
+    .stories .container .card-thirteen{
+        width: 100%;
+    }
+
+    .stories .container .card-fourteen{
+        width: 100%;
+    }
+
+    .stories .container .card-fifteen{
+        width: 100%;
+    }
+
+    .stories .container .card-sixteen{
+        width: 100%;
+    }
+
+    /* Footer */
+
+    footer{
+        position: absolute;
+        top: 6900px;
+        height: 560px;
+        padding: 56px 33px;
+    }
+
+    footer .container{
+        width: calc(100% - 66px);
+        height: 427px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .container .links ul{
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        left: -140px;
+        transform: translateY(130px);
+    }
+
+    footer .container .logo-footer{
+        position: absolute;
+        top: 33px;
+        left: 95px;
+        margin: 0;
+    }
+
+    footer .container .social-logos{
+        top: 99px;
+        left: 120px;
+        height: 20px;
+    }
+
+    footer .container .social-logos-hover{
+        top: 99px;
+        left: 120px;
+    }
+
+    footer .container .invite{
+        top: 375px;
+        left: 100px;
+    }
+}
