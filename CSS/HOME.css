@@ -1,20 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: "DM Sans", serif;
 }
 
 /* Nav Bar */
 
-nav{
+nav {
     width: 100%;
     height: 72px;
     background-color: #fff;
@@ -25,55 +25,55 @@ nav{
 
 /* Logo */
 
-nav a{
+nav a {
     text-decoration: none;
     color: #000;
 }
 
-nav a .logo{
+nav a .logo {
     display: flex;
     gap: 8px;
     align-self: center;
 }
 
-nav a .logo h1{
+nav a .logo h1 {
     font-weight: bold;
     font-size: 23px;
 }
 
-nav a .logo svg{
+nav a .logo svg {
     position: relative;
     top: 7px;
 }
 
 /* Links */
 
-nav .links{
+nav .links {
     width: 270px;
     height: 16px;
 }
 
-nav .links ul{
+nav .links ul {
     display: flex;
     justify-content: space-between;
 }
 
-nav .links ul li{
+nav .links ul li {
     list-style: none;
 }
 
-nav .links ul li a{
+nav .links ul li a {
     font-size: 12px;
     font-weight: 700;
 }
 
-nav .links ul li a:hover{
+nav .links ul li a:hover {
     opacity: 30%;
 }
 
 /* Button */
 
-nav .btn{
+nav .btn {
     width: 158px;
     height: 40px;
     background-color: #000;
@@ -81,14 +81,15 @@ nav .btn{
     color: #fff;
     display: flex;
     align-self: center;
+    cursor: pointer;
 }
 
-nav .btn:hover{
+nav .btn:hover {
     background: #DFDFDF;
     color: #000;
 }
 
-nav .btn p{
+nav .btn p {
     width: 110px;
     height: 16px;
     font-weight: 700;
@@ -98,17 +99,17 @@ nav .btn p{
 
 /* Bar */
 
-nav .bar{
+nav .bar {
     display: none;
 }
 
 /* Section one */
 
-.sec-one{
+.sec-one {
     display: flex;
 }
 
-.sec-one .ditailes{
+.sec-one .ditailes {
     background-color: #000;
     width: 610px;
     height: 650px;
@@ -116,13 +117,13 @@ nav .bar{
     display: flex;
 }
 
-.sec-one .ditailes .Rectangle{
+.sec-one .ditailes .Rectangle {
     width: 6px;
     height: 304px;
     background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
 }
 
-.sec-one .ditailes .photo{
+.sec-one .ditailes .photo {
     width: 387px;
     height: 304px;
     color: #fff;
@@ -132,15 +133,15 @@ nav .bar{
     margin-left: 106px;
 }
 
-.sec-one .ditailes .photo h2{
+.sec-one .ditailes .photo h2 {
     height: 144px;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 4.17px;
 }
 
-.sec-one .ditailes .photo p{
+.sec-one .ditailes .photo p {
     height: 165px;
     opacity: 60%;
     font-weight: 400;
@@ -148,7 +149,7 @@ nav .bar{
     position: relative;
 }
 
-.sec-one .ditailes .link{
+.sec-one .ditailes .link {
     color: #fff;
     display: flex;
     position: absolute;
@@ -157,22 +158,22 @@ nav .bar{
     gap: 10px;
 }
 
-.sec-one .ditailes .link a{
+.sec-one .ditailes .link a {
     text-decoration: none;
     color: #fff;
 }
 
-.sec-one .ditailes .link svg{
+.sec-one .ditailes .link svg {
     position: absolute;
     left: 117px;
     top: 4px;
 }
 
-.sec-one .ditailes .link a:hover{
+.sec-one .ditailes .link a:hover {
     text-decoration: underline;
 }
 
-.sec-one .image{
+.sec-one .image {
     background-image: url("../IMAGES/home-one.png");
     width: 830px;
     height: 650px;
@@ -183,11 +184,11 @@ nav .bar{
 
 /* Section two */
 
-.sec-two{
+.sec-two {
     display: flex;
 }
 
-.sec-two .ditailes{
+.sec-two .ditailes {
     background-color: #fff;
     width: 610px;
     height: 650px;
@@ -195,7 +196,7 @@ nav .bar{
     display: flex;
 }
 
-.sec-two .ditailes .photo{
+.sec-two .ditailes .photo {
     width: 387px;
     height: 304px;
     color: #000;
@@ -205,7 +206,7 @@ nav .bar{
     margin-left: 106px;
 }
 
-.sec-two .ditailes .photo h2{
+.sec-two .ditailes .photo h2 {
     height: 144px;
     font-size: 49px;
     font-weight: 700;
@@ -213,7 +214,7 @@ nav .bar{
     letter-spacing: 4.17px;
 }
 
-.sec-two .ditailes .photo p{
+.sec-two .ditailes .photo p {
     height: 165px;
     opacity: 60%;
     font-weight: 400;
@@ -222,7 +223,7 @@ nav .bar{
     top: 30px;
 }
 
-.sec-two .ditailes .link{
+.sec-two .ditailes .link {
     color: #000;
     display: flex;
     position: absolute;
@@ -231,22 +232,22 @@ nav .bar{
     gap: 10px;
 }
 
-.sec-two .ditailes .link a{
+.sec-two .ditailes .link a {
     text-decoration: none;
     color: #000;
 }
 
-.sec-two .ditailes .link a:hover{
+.sec-two .ditailes .link a:hover {
     text-decoration: underline;
 }
 
-.sec-two .ditailes .link svg{
+.sec-two .ditailes .link svg {
     position: absolute;
     right: -50px;
     top: 4px;
 }
 
-.sec-two .image{
+.sec-two .image {
     background-image: url("../IMAGES/home-two.png");
     width: 830px;
     height: 650px;
@@ -257,11 +258,11 @@ nav .bar{
 
 /* Section three */
 
-.sec-three{
+.sec-three {
     display: flex;
 }
 
-.sec-three .ditailes{
+.sec-three .ditailes {
     background-color: #fff;
     width: 610px;
     height: 650px;
@@ -269,7 +270,7 @@ nav .bar{
     display: flex;
 }
 
-.sec-three .ditailes .photo{
+.sec-three .ditailes .photo {
     width: 387px;
     height: 304px;
     color: #000;
@@ -279,7 +280,7 @@ nav .bar{
     margin-left: 106px;
 }
 
-.sec-three .ditailes .photo h2{
+.sec-three .ditailes .photo h2 {
     height: 144px;
     font-size: 40px;
     font-weight: 700;
@@ -287,7 +288,7 @@ nav .bar{
     letter-spacing: 4.17px;
 }
 
-.sec-three .ditailes .photo p{
+.sec-three .ditailes .photo p {
     height: 165px;
     opacity: 60%;
     font-weight: 400;
@@ -296,7 +297,7 @@ nav .bar{
     top: -20px;
 }
 
-.sec-three .ditailes .link{
+.sec-three .ditailes .link {
     color: #000;
     display: flex;
     position: absolute;
@@ -305,22 +306,22 @@ nav .bar{
     gap: 10px;
 }
 
-.sec-three .ditailes .link a{
+.sec-three .ditailes .link a {
     text-decoration: none;
     color: #000;
 }
 
-.sec-three .ditailes .link a:hover{
+.sec-three .ditailes .link a:hover {
     text-decoration: underline;
 }
 
-.sec-three .ditailes .link svg{
+.sec-three .ditailes .link svg {
     position: absolute;
     left: 150px;
     top: 4px;
 }
 
-.sec-three .image{
+.sec-three .image {
     background-image: url("../IMAGES/home-three.png");
     width: 830px;
     height: 650px;
@@ -336,12 +337,12 @@ nav .bar{
     height: 500px;
 }
 
-.stories .container{
+.stories .container {
     display: flex;
     position: relative;
 }
 
-.stories .container .card-one{
+.stories .container .card-one {
     width: calc(100% / 4);
     height: 500px;
     background-image: url("../IMAGES/story-1.png");
@@ -350,31 +351,30 @@ nav .bar{
     transition: all 1s;
 }
 
-.stories .container .card-one:hover{
-    border-bottom: solid 6px #BC7198;
+.stories .container .card-one:hover {
     transform: translateY(-20px);
 }
 
-.stories .container .card-one .content{
+.stories .container .card-one .content {
     width: 100%;
     height: 500px;
     padding: 0 40px;
     padding-top: 361px;
 }
 
-.stories .container .card-one .content .text h3{
+.stories .container .card-one .content .text h3 {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
 }
 
-.stories .container .card-one .content .text p{
+.stories .container .card-one .content .text p {
     font-size: 13px;
     font-weight: 400;
     color: #fff;
 }
 
-.stories .container .card-one .content .line{
+.stories .container .card-one .content .line {
     width: 280px;
     height: 2px;
     opacity: 25%;
@@ -382,19 +382,19 @@ nav .bar{
     margin: 16px auto;
 }
 
-.stories .container .card-one .content .read{
+.stories .container .card-one .content .read {
     display: flex;
     justify-content: space-between;
 }
 
-.stories .container .card-one .content .read h4{
+.stories .container .card-one .content .read h4 {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
     color: #fff;
 }
 
-.stories .container .card-two{
+.stories .container .card-two {
     width: calc(100% / 4);
     height: 500px;
     background-image: url("../IMAGES/story-2.png");
@@ -403,31 +403,30 @@ nav .bar{
     transition: all 1s;
 }
 
-.stories .container .card-two:hover{
-    border-bottom: solid 6px #BC7198;
+.stories .container .card-two:hover {
     transform: translateY(-20px);
 }
 
-.stories .container .card-two .content{
+.stories .container .card-two .content {
     width: 100%;
     height: 500px;
     padding: 0 40px;
     padding-top: 361px;
 }
 
-.stories .container .card-two .content .text h3{
+.stories .container .card-two .content .text h3 {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
 }
 
-.stories .container .card-two .content .text p{
+.stories .container .card-two .content .text p {
     font-size: 13px;
     font-weight: 400;
     color: #fff;
 }
 
-.stories .container .card-two .content .line{
+.stories .container .card-two .content .line {
     width: 280px;
     height: 2px;
     opacity: 25%;
@@ -435,19 +434,19 @@ nav .bar{
     margin: 16px auto;
 }
 
-.stories .container .card-two .content .read{
+.stories .container .card-two .content .read {
     display: flex;
     justify-content: space-between;
 }
 
-.stories .container .card-two .content .read h4{
+.stories .container .card-two .content .read h4 {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
     color: #fff;
 }
 
-.stories .container .card-three{
+.stories .container .card-three {
     width: calc(100% / 4);
     height: 500px;
     background-image: url("../IMAGES/story-3.png");
@@ -457,31 +456,30 @@ nav .bar{
     transition: all 1s;
 }
 
-.stories .container .card-three:hover{
-    border-bottom: solid 6px #BC7198;    
+.stories .container .card-three:hover {
     transform: translateY(-20px);
 }
 
-.stories .container .card-three .content{
+.stories .container .card-three .content {
     width: 100%;
     height: 500px;
     padding: 0 40px;
     padding-top: 361px;
 }
 
-.stories .container .card-three .content .text h3{
+.stories .container .card-three .content .text h3 {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
 }
 
-.stories .container .card-three .content .text p{
+.stories .container .card-three .content .text p {
     font-size: 13px;
     font-weight: 400;
     color: #fff;
 }
 
-.stories .container .card-three .content .line{
+.stories .container .card-three .content .line {
     width: 280px;
     height: 2px;
     opacity: 25%;
@@ -489,19 +487,19 @@ nav .bar{
     margin: 16px auto;
 }
 
-.stories .container .card-three .content .read{
+.stories .container .card-three .content .read {
     display: flex;
     justify-content: space-between;
 }
 
-.stories .container .card-three .content .read h4{
+.stories .container .card-three .content .read h4 {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
     color: #fff;
 }
 
-.stories .container .card-four{
+.stories .container .card-four {
     width: calc(100% / 4);
     height: 500px;
     background-image: url("../IMAGES/story-4.png");
@@ -510,31 +508,30 @@ nav .bar{
     transition: all 1s;
 }
 
-.stories .container .card-four:hover{
-    border-bottom: solid 6px #BC7198;
+.stories .container .card-four:hover {
     transform: translateY(-20px);
 }
 
-.stories .container .card-four .content{
+.stories .container .card-four .content {
     width: 100%;
     height: 500px;
     padding: 0 40px;
     padding-top: 361px;
 }
 
-.stories .container .card-four .content .text h3{
+.stories .container .card-four .content .text h3 {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
 }
 
-.stories .container .card-four .content .text p{
+.stories .container .card-four .content .text p {
     font-size: 13px;
     font-weight: 400;
     color: #fff;
 }
 
-.stories .container .card-four .content .line{
+.stories .container .card-four .content .line {
     width: 280px;
     height: 2px;
     opacity: 25%;
@@ -542,12 +539,12 @@ nav .bar{
     margin: 16px auto;
 }
 
-.stories .container .card-four .content .read{
+.stories .container .card-four .content .read {
     display: flex;
     justify-content: space-between;
 }
 
-.stories .container .card-four .content .read h4{
+.stories .container .card-four .content .read h4 {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -556,7 +553,7 @@ nav .bar{
 
 /* main section */
 
-main{
+main {
     width: 100%;
     height: 475px;
     display: flex;
@@ -564,14 +561,14 @@ main{
     align-items: center;
 }
 
-main .container{
+main .container {
     width: 1110px;
     height: 236px;
     display: flex;
     gap: 40px;
 }
 
-main .container .content-card-one{
+main .container .content-card-one {
     width: 360px;
     height: 236px;
     display: flex;
@@ -581,25 +578,25 @@ main .container .content-card-one{
     gap: 50px;
 }
 
-main .container .content-card-one .content{
+main .container .content-card-one .content {
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: center;
 }
 
-main .container .content-card-one .content h5{
+main .container .content-card-one .content h5 {
     font-weight: 700;
     font-size: 18px;
 }
 
-main .container .content-card-one .content p{
+main .container .content-card-one .content p {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
 }
 
-main .container .content-card-two{
+main .container .content-card-two {
     width: 360px;
     height: 236px;
     display: flex;
@@ -609,25 +606,25 @@ main .container .content-card-two{
     gap: 85px;
 }
 
-main .container .content-card-two .content{
+main .container .content-card-two .content {
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: center;
 }
 
-main .container .content-card-two .content h5{
+main .container .content-card-two .content h5 {
     font-weight: 700;
     font-size: 18px;
 }
 
-main .container .content-card-two .content p{
+main .container .content-card-two .content p {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
 }
 
-main .container .content-card-three{
+main .container .content-card-three {
     width: 360px;
     height: 236px;
     display: flex;
@@ -637,19 +634,19 @@ main .container .content-card-three{
     gap: 30px;
 }
 
-main .container .content-card-three .content{
+main .container .content-card-three .content {
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: center;
 }
 
-main .container .content-card-three .content h5{
+main .container .content-card-three .content h5 {
     font-weight: 700;
     font-size: 18px;
 }
 
-main .container .content-card-three .content p{
+main .container .content-card-three .content p {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
@@ -657,14 +654,14 @@ main .container .content-card-three .content p{
 
 /* Footer */
 
-footer{
+footer {
     width: 100%;
     height: 250px;
     padding: 64px 168px;
     background-color: #000;
 }
 
-footer .container{
+footer .container {
     width: (100% - 336px);
     height: 122px;
     position: relative;
@@ -672,88 +669,88 @@ footer .container{
 
 /* logo footer */
 
-footer .container .logo-footer{
+footer .container .logo-footer {
     margin-bottom: 85px;
 }
 
-footer .container .logo-footer a{
+footer .container .logo-footer a {
     text-decoration: none;
     color: #fff;
 }
 
-footer .container .logo-footer a .logo{
+footer .container .logo-footer a .logo {
     display: flex;
     gap: 8px;
     align-self: center;
     width: fit-content;
 }
 
-footer .container .logo-footer a .logo h1{
+footer .container .logo-footer a .logo h1 {
     font-weight: bold;
     font-size: 23px;
 }
 
-footer .container .logo-footer a .logo svg{
+footer .container .logo-footer a .logo svg {
     position: relative;
     top: 7px;
 }
 
 /* social logos */
 
-footer .container .social-logos{
+footer .container .social-logos {
     position: absolute;
     bottom: 0;
     z-index: 1;
 }
 
-footer .container .social-logos a{
+footer .container .social-logos a {
     text-decoration: none;
 }
 
-footer .container .social-logos-hover{
+footer .container .social-logos-hover {
     position: absolute;
     bottom: 0;
 }
 
-footer .container .social-logos-hover a{
+footer .container .social-logos-hover a {
     text-decoration: none;
 }
 
-footer .container .social-logos .facebook:hover{
+footer .container .social-logos .facebook:hover {
     opacity: 0;
 }
 
-footer .container .social-logos .youtube:hover{
+footer .container .social-logos .youtube:hover {
     opacity: 0;
 }
 
-footer .container .social-logos .twitter:hover{
+footer .container .social-logos .twitter:hover {
     opacity: 0;
 }
 
-footer .container .social-logos .pinterest:hover{
+footer .container .social-logos .pinterest:hover {
     opacity: 0;
 }
 
-footer .container .social-logos .instagram:hover{
+footer .container .social-logos .instagram:hover {
     opacity: 0;
 }
 
 /* footer links */
 
-footer .container .links{
+footer .container .links {
     position: absolute;
     left: 280px;
     top: 0;
 }
 
-footer .container .links ul{
+footer .container .links ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-footer .container .links ul li a{
+footer .container .links ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 12px;
@@ -762,17 +759,17 @@ footer .container .links ul li a{
     text-transform: uppercase;
 }
 
-footer .container .links ul li .active{
+footer .container .links ul li .active {
     opacity: 30%;
 }
 
-footer .container .links ul li a:hover{
+footer .container .links ul li a:hover {
     opacity: 30%;
 }
 
 /* invite link */
 
-footer .container .invite{
+footer .container .invite {
     display: flex;
     gap: 20px;
     color: #fff;
@@ -784,13 +781,13 @@ footer .container .invite{
     letter-spacing: 2px;
 }
 
-footer .container .invite:hover{
+footer .container .invite:hover {
     text-decoration: underline;
 }
 
 /* invite info */
 
-footer .container .info{
+footer .container .info {
     color: #fff;
     opacity: 50%;
     font-weight: 400;
@@ -806,92 +803,93 @@ footer .container .info{
 
     /* Nav Bar */
 
-    nav{
+    nav {
         padding: 28px 40px;
     }
 
     /* Section one */
 
-    .sec-one .image{
+    .sec-one .image {
         background-position-x: -1000px;
         background-position: calc(1.5);
     }
 
     /* Section two */
 
-    .sec-two .ditailes .link a{
+    .sec-two .ditailes .link a {
         transform: translateX(80px);
     }
 
-    .sec-two .ditailes .link svg{
+    .sec-two .ditailes .link svg {
         transform: translateX(80px);
     }
 
-    .sec-two .image{
+    .sec-two .image {
         background-position-x: -200px;
     }
 
     /* Section two */
 
-    .sec-three .image{
+    .sec-three .image {
         background-position-x: -250px;
     }
 
     /* STORIES */
 
-    .stories .container{
+    .stories .container {
         flex-wrap: wrap;
     }
 
-    .stories .container .card-one{
+    .stories .container .card-one {
         width: calc(100% / 2);
     }
 
-    .stories .container .card-two{
+    .stories .container .card-two {
         width: calc(100% / 2);
     }
 
-    .stories .container .card-three{
+    .stories .container .card-three {
         width: calc(100% / 2);
     }
 
-    .stories .container .card-four{
+    .stories .container .card-four {
         width: calc(100% / 2);
     }
 
     /* main section */
 
-    main{
+    main {
         position: relative;
         bottom: -500px;
+        width: 750px;
     }
 
-    main .container{
+    main .container {
         display: block;
         padding: 50px 210px;
     }
 
     /* Footer */
 
-    footer{
+    footer {
         position: relative;
         bottom: -1000px;
         padding: 50px 40px;
     }
 
-    footer .container .social-logos{
+    footer .container .social-logos {
         bottom: -30px;
     }
 
-    footer .container .social-logos-hover{
+    footer .container .social-logos-hover {
         bottom: -30px;
     }
 
-    footer .container .info{
+    footer .container .info {
         bottom: -30px;
     }
 
-    footer .container .links ul{
+    footer .container .links ul {
         flex-direction: row;
         position: absolute;
         left: -279px;
@@ -903,70 +901,73 @@ footer .container .info{
 
     /* nav bar */
 
-    nav{
+    nav {
         padding: 28px 24px;
     }
 
-    nav .links{
+    nav .links {
         display: none;
     }
 
-    nav .btn{
+    nav .btn {
         display: none;
     }
-    nav .bar{
+
+    nav .bar {
         display: flex;
         padding: 9px;
     }
 
     /* Section one */
 
-    .sec-one{
+    .sec-one {
         flex-direction: column;
     }
 
-    .sec-one .image{
+    .sec-one .image {
         position: absolute;
         top: 72px;
-        height: 294px;
+        width: 100%;
+        height: 271px;
         background-size: cover;
-        background-position-x: -200PX;
-        background-position-y: -250PX;
+        background-position-x: 0;
+        background-position-y: 280px;
     }
 
-    .sec-one .ditailes{
+    .sec-one .ditailes {
         position: absolute;
+        width: 425px;
         height: 419px;
-        top: 366px;
+        top: 343px;
         padding: 72px 33px;
     }
 
-    .sec-one .ditailes .Rectangle{
+    .sec-one .ditailes .Rectangle {
         width: 128px;
         height: 6px;
         position: absolute;
-        top: 0px; 
+        top: 0px;
     }
 
-    .sec-one .ditailes .photo{
+    .sec-one .ditailes .photo {
         margin: 0;
     }
 
-    .sec-one .ditailes .link{
+    .sec-one .ditailes .link {
         top: 350px;
         left: 33px;
     }
 
-    .sec-one .ditailes .photo h2{
+    .sec-one .ditailes .photo h2 {
         font-size: 35px;
         height: 120px;
     }
 
     /* Section two */
 
-    .sec-two .image{
+    .sec-two .image {
         position: absolute;
-        top: 785px;
+        top: 762px;
         width: 100%;
         height: 271px;
         background-size: cover;
@@ -974,32 +975,33 @@ footer .container .info{
         background-position-y: 250px;
     }
 
-    .sec-two .ditailes{
+    .sec-two .ditailes {
         position: absolute;
-        top: 1020px;
+        top: 997px;
+        width: 425px;
         padding: 72px 33px;
     }
 
-    .sec-two .ditailes .photo{
+    .sec-two .ditailes .photo {
         margin: 0;
     }
 
-    .sec-two .ditailes .link{
+    .sec-two .ditailes .link {
         position: absolute;
         top: 400px;
         left: -44px;
     }
 
-    .sec-two .ditailes .link svg{
+    .sec-two .ditailes .link svg {
         position: absolute;
         left: 150px;
     }
 
     /* Section three */
 
-    .sec-three .image{
+    .sec-three .image {
         position: absolute;
-        top: 1575px;
+        top: 1552px;
         width: 100%;
         height: 350px;
         background-size: cover;
@@ -1007,69 +1009,91 @@ footer .container .info{
         background-position-y: -100px;
     }
 
-    .sec-three .ditailes{
+    .sec-three .ditailes {
         position: absolute;
-        top: 1925px;
+        top: 1902px;
+        width: 425px;
         padding: 92px 33px;
     }
 
-    .sec-three .ditailes .photo{
+    .sec-three .ditailes .photo {
         margin: 0;
     }
 
-    .sec-three .ditailes .link{
+    .sec-three .ditailes .link {
         position: absolute;
         top: 350px;
         left: 33px;
     }
 
-    .sec-three .ditailes .link svg{
+    .sec-three .ditailes .link svg {
         position: absolute;
         left: 150px;
     }
 
     /* STORIES */
 
-    .stories .container .card-one{
+    .stories .container .card-one {
         width: 100%;
     }
 
-    .stories .container .card-two{
+    .stories .container .card-two {
         width: 100%;
     }
 
-    .stories .container .card-three{
+    .stories .container .card-three {
         width: 100%;
     }
 
-    .stories .container .card-four{
+    .stories .container .card-four {
         width: 100%;
     }
 
-    .stories .container{
+    .stories .container {
         position: relative;
-        top: 2400px;
+        top: 2377px;
     }
 
     /* main section */
 
-    main{
-        width: 310px;
+    main {
+        width: 425px;
         position: absolute;
         top: 4350px;
-        left: 57.5px;
+        left: 0px;
+    }
+
+    main .container{
+        width: 380px;
+    }
+
+    main .container .content-card-one{
+        position: absolute;
+        left: 32.5px;
+    }
+
+    main .container .content-card-two{
+        position: absolute;
+        top: 420px;
+        left: 32.5px;
+    }
+
+    main .container .content-card-three{
+        position: absolute;
+        top: 700px;
+        left: 32.5px;
     }
 
     /* Footer */
 
-    footer{
+    footer {
         position: absolute;
         top: 5300px;
         height: 560px;
         padding: 56px 33px;
     }
 
-    footer .container{
+    footer .container {
         width: calc(100% - 66px);
         height: 427px;
         display: flex;
@@ -1077,7 +1101,7 @@ footer .container .info{
         align-items: center;
     }
 
-    footer .container .links ul{
+    footer .container .links ul {
         flex-direction: column;
         align-items: center;
         position: absolute;
@@ -1085,25 +1109,25 @@ footer .container .info{
         transform: translateY(130px);
     }
 
-    footer .container .logo-footer{
+    footer .container .logo-footer {
         position: absolute;
         top: 33px;
         left: 95px;
         margin: 0;
     }
 
-    footer .container .social-logos{
+    footer .container .social-logos {
         top: 99px;
         left: 120px;
         height: 20px;
     }
 
-    footer .container .social-logos-hover{
+    footer .container .social-logos-hover {
         top: 99px;
         left: 120px;
     }
 
-    footer .container .invite{
+    footer .container .invite {
         top: 375px;
         left: 100px;
     }

@@ -622,6 +622,7 @@ footer .container .info{
     }
 
     .first .one{
+        width: 425px;
         position: absolute;
         background-size: cover;
         top: -300px;
